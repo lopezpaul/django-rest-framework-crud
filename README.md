@@ -12,15 +12,17 @@ sqlite3 db.sqlite3
 .databases
 .exit
 ```
+## Install virtual environment
+```
+deactivate
+python -m venv venv
+source venv/bin/activate
+```
 
 ## Install Python packages for this app
 ```    
 pip install --upgrade pip
-pip install virtualenv
-pip install django
-pip install djangorestframework
-pip install django-cors-headers
-pip install coreapi
+pip install django djangorestframework django-cors-headers coreapi
 ```
 
 #### Create tables in database    
